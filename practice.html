@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <link rel="stylesheet" type="text/css" href="mystyle.css"> -->
+    <title>
+      Hello world
+    </title>
+    <style>
+      /* p {
+  text-align: center;
+  color: red;
+}  */
+
+      #para1 {
+        text-align: center;
+        color: red;
+      }
+      .center {
+        text-align: center;
+        color: red;
+      }
+      p.center {
+        text-align: center;
+        color: blue;
+      }
+
+      p.large {
+        font-size: 300%;
+      }
+
+      h1,
+      h2,
+      p {
+        text-align: center;
+        color: red;
+      }
+
+      body {
+        background-color: linen;
+      }
+
+      h1 {
+        color: maroon;
+        margin-left: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Every paragraph will be affected by the style.</p>
+    <h1 class="center">Red and center-aligned heading</h1>
+    <p id="para1">Every paragraph will be affected by the style.</p>
+    <p class="center">
+      You can also specify that only specific HTML elements should be affected
+      by a class.
+    </p>
+    <p class="center large">
+      HTML elements can also refer to more than one class.
+    </p>
+    <h1>It will be better to group the selectors, to minimize the code.</h1>
+    <h2>To group selectors, separate each selector with a comma.</h2>
+    <p>
+      In the example below we have grouped the selectors from the code above:
+    </p>
+    <h1 style="color:blue;margin-left:30px;">This is a heading</h1> 
+    
+  </body>
+</html>

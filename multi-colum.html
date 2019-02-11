@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MultiPle-Coloums example</title>
+    <style>
+      .newspaper {
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count: 3; /* Firefox */
+        column-count: 3;
+        -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+        -moz-column-gap: 50px; /* Firefox */
+        column-gap: 50px;
+        text-justify: auto;
+
+      -webkit-column-rule-style: dotted;
+      -moz-column-rule-style: dotted;
+      column-rule-style: dotted;
+      
+
+       /* -webkit-column-rule: 1px solid lightblue ; 
+
+       -moz-column-rule: 1px solid lightblue ; 
+        column-rule: 1px solid lightblue ; */
+      }
+      h2 {
+        -webkit-column-span: all; /* Chrome, Safari, Opera */
+        column-span: all;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <p>
+        <b>Note:</b>
+        <strong>
+          Internet Explorer 9, and earlier versions, does not support the
+          column-gap property.</strong
+        >
+      </p>
+    </h1>
+
+    <div class="newspaper">
+      <h2>Lorem Ipsum Dolor Sit Amet</h2>
+      <i
+        >Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+        volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+        molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
+        eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+        zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber
+        tempor cum soluta nobis eleifend option congue nihil imperdiet doming id
+        quod mazim placerat facer possim assum.
+      </i>
+    </div>
+  </body>
+</html>
